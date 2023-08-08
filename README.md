@@ -16,7 +16,7 @@ The Sorting Visualizer is a web-based application that provides an interactive w
 
 # How to Use
 
-1. Open the Sorting Visualizer in a web browser.
+1. Open the Sorting Visualizer in a web browser : https://bogdanmoale.github.io/Sorting-Visualizer/
 2. Click the "Generate New Array" button to create a new array of elements.
 3. Choose a sorting algorithm from the available options.
 4. Adjust the speed slider to control the visualization speed.
