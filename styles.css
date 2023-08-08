@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+.controls input[type="range"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bars {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+.bar {
+    position: relative;
+    width: 8px;
+    margin: 0 1px;
+    background-color: #3498db;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid red;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.sorted {
+    background-color: #2ecc71; /* Green color for sorted bars */
+}
